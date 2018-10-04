@@ -1,0 +1,24 @@
+{
+    "name": "liaowenchung/demo",
+    "description": "demo",
+    "authors": [
+        {
+            "name": "李昱佑",
+            "email": "liyuyu0418@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/Demo"
+        },
+        "classmap": [
+            "./my_library",
+            "./other_library"
+        ],
+        "files": [
+            "src/Illuminate/Foundation/helpers.php",
+            "src/Illuminate/Support/helpers.php"
+        ]
+    }
+}
